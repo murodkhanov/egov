@@ -1,12 +1,13 @@
-import React, { useState } from "react";
-import { useAsyncDebounce } from "react-table";
+import React from "react";
+// import { useAsyncDebounce } from "react-table";
 import "./table.css";
 
-export const GlobalFilter = ({ filter, setFilter }) => {
-  const [value, setValue] = useState(filter);
-  const onChange = useAsyncDebounce((value) => {
-    setFilter(value || undefined);
-  }, 1000);
+// export const GlobalFilter = ({ setFilter }) => {
+//   const onChang = useAsyncDebounce((value) => {
+//     setFilter(value || undefined);
+//   }, 1000);
+
+export const GlobalFilter = () => {
   return (
     // // <span>
     //   ҚИДИРИШ:{" "}
