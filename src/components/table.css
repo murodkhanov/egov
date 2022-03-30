@@ -1,0 +1,55 @@
+table {
+  font-family: 'SF Pro Display', Arial, Helvetica, sans-serif;
+  margin: 28px auto;
+  border-collapse: collapse;
+}
+
+
+tr:hover {
+   background: #f4f4f4;
+}
+
+td:hover {
+  color: #555;
+}
+
+div, span{
+  padding-top: 20px;
+}
+
+div input{
+  border-radius: 3px;
+  padding: 4px;
+  outline: none;
+  border: none;
+}
+
+.header-top{
+  background-color: #2FA4FF;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  
+}
+
+
+table td,
+table th {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table th, 
+tfoot td {
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #2FA4FF;
+  color: white;
+}
